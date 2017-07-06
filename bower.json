@@ -1,0 +1,22 @@
+{
+  "name": "color.es",
+  "description": "Gorgeous Color Schemes, Color.es",
+  "main": "src/color.es.min.css",
+  "authors": [
+    "misterzik <nickjrod@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Color",
+    "Palette",
+    "CSS"
+  ],
+  "homepage": "https://github.com/misterzik/colores",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
