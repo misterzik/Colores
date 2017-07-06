@@ -1,0 +1,21 @@
+{
+  "name": "color.es",
+  "version": "1.0.0",
+  "description": "Gorgeous Color Schemes, Color.es",
+  "main": "index.js",
+  "repository": "https://github.com/misterzik/colores.git",
+  "author": "misterzik <nickjrod@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon espresso.js",
+    "build:css": "./bin/build",
+    "watch:css": "./bin/watch",
+    "minify:css": "./bin/minify"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "minifier": "^0.8.1",
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.11.0"
+  }
+}
