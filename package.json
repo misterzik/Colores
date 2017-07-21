@@ -1,10 +1,10 @@
 {
-  "name": "color.es",
+  "name": "colores",
   "version": "1.0.0",
-  "description": "Gorgeous Color Schemes, Color.es",
+  "description": "Gorgeous Color Schemes, Color.es is a small css library packed with the most used colors used this season.",
   "main": "index.js",
   "repository": "https://github.com/misterzik/colores.git",
-  "author": "misterzik <nickjrod@gmail.com>",
+  "author": "MisterZik <nickjrod@gmail.com>",
   "license": "MIT",
   "scripts": {
     "start": "nodemon espresso.js",
