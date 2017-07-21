@@ -3,6 +3,8 @@ scss/
 node_modules/
 yarn.lock
 espresso.js
+package.json
+.editorconfig
 
 # System Files
 .DS_Store

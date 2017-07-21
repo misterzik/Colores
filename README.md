@@ -34,12 +34,13 @@ For this example, I am going to use the color yellow in default/primary color.
  `cls-text yellow` - This will change the color of the text font.
 
 #### HTML:
-1. ```
+```
 <div class="colores yellow">
   This is a Yellow Box
 </div>
 ```
-2. ```
+
+```
 <span class="cls-text yellow">
   This is a Yellow Text
 </span>
