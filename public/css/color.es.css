@@ -1,7 +1,50 @@
 /*
- * Colores :: Built-in Palette
- * >__coloresv1 - mrZ
+ * Color.es :: Built-in Palette
+ * >__ by misterZik
+ * ----------------------------
+ * colores Default Colors.
  */
+/*
+ * Color.es :: Built-in Palette
+ * >__ by misterZik
+ * ----------------------------
+ * Functionality
+ */
+/*
+ * Color.es :: Built-in Palette
+ * >__ by misterZik
+ * ----------------------------
+ * Colores - Config
+ * ----------------
+ */
+/*
+   * Colores - Palette
+   */
+/*
+ * Color.es :: Built-in Palette
+ * >__ by misterZik
+ * ----------------------------
+ * Colores - Palette
+ * ----------------
+ */
+/*
+ * Color.es :: Built-in Palette
+ * >__ by misterZik
+ * ----------------------------
+ * colores Built-in Palette
+ */
+.colores {
+  /* Primary */
+  /* Red  */
+  /* Pink */
+  /* Purple */
+  /* Blue */
+  /* Cyan */
+  /* Green */
+  /* Yellow */
+  /* Orange */
+  /* Brown */
+  /* Grey */ }
   .colores.primary {
     background: black; }
   .colores.primary-light {
@@ -74,14 +117,6 @@
     background: #fb8c00; }
   .colores.orange-darker {
     background: #fb8c00; }
-  .colores.mz-orange {
-    background: #ff5722; }
-  .colores.mz-orange-light {
-    background: #ff7043; }
-  .colores.mz-orange-dark {
-    background: #f4511e; }
-  .colores.mz-orange-darker {
-    background: #e64a19; }
   .colores.brown {
     background: #795548; }
   .colores.brown-light {
@@ -99,101 +134,104 @@
   .colores.grey-darker {
     background: #212121; }
 
-.cls-text {
-  /* Font Color - Colores */ }
-  .cls-text.primary {
+.txt-cls {
+  /* Font Color - Colores */
+  /* Primary */
+  /* Red  */
+  /* Pink */
+  /* Purple */
+  /* Blue */
+  /* Cyan */
+  /* Green */
+  /* Yellow */
+  /* Orange */
+  /* Brown */
+  /* Grey */ }
+  .txt-cls.primary {
     color: black; }
-  .cls-text.primary-light {
+  .txt-cls.primary-light {
     color: white; }
-  .cls-text.primary-dark {
+  .txt-cls.primary-dark {
     color: #424242; }
-  .cls-text.primary-darker {
+  .txt-cls.primary-darker {
     color: #212121; }
-  .cls-text.red {
+  .txt-cls.red {
     color: #f44336; }
-  .cls-text.red-light {
+  .txt-cls.red-light {
     color: #ef5350; }
-  .cls-text.red-dark {
+  .txt-cls.red-dark {
     color: #e53935; }
-  .cls-text.red-darker {
+  .txt-cls.red-darker {
     color: #d32f2f; }
-  .cls-text.pink {
+  .txt-cls.pink {
     color: #e91e63; }
-  .cls-text.pink-light {
+  .txt-cls.pink-light {
     color: #ec407a; }
-  .cls-text.pink-dark {
+  .txt-cls.pink-dark {
     color: #d81b60; }
-  .cls-text.pink-darker {
+  .txt-cls.pink-darker {
     color: #c2185b; }
-  .cls-text.purple {
+  .txt-cls.purple {
     color: #9c27b0; }
-  .cls-text.purple-light {
+  .txt-cls.purple-light {
     color: #ab47bc; }
-  .cls-text.purple-dark {
+  .txt-cls.purple-dark {
     color: #8e24aa; }
-  .cls-text.purple-darker {
+  .txt-cls.purple-darker {
     color: #7b1fa2; }
-  .cls-text.blue {
+  .txt-cls.blue {
     color: #2196f3; }
-  .cls-text.blue-light {
+  .txt-cls.blue-light {
     color: #42a5f5; }
-  .cls-text.blue-dark {
+  .txt-cls.blue-dark {
     color: #1e88e5; }
-  .cls-text.blue-darker {
+  .txt-cls.blue-darker {
     color: #1976d2; }
-  .cls-text.cyan {
+  .txt-cls.cyan {
     color: #00bcd4; }
-  .cls-text.cyan-light {
+  .txt-cls.cyan-light {
     color: #26c6da; }
-  .cls-text.cyan-dark {
+  .txt-cls.cyan-dark {
     color: #00acc1; }
-  .cls-text.cyan-darker {
+  .txt-cls.cyan-darker {
     color: #0097a7; }
-  .cls-text.green {
+  .txt-cls.green {
     color: #4caf50; }
-  .cls-text.green-light {
+  .txt-cls.green-light {
     color: #66bb6a; }
-  .cls-text.green-dark {
+  .txt-cls.green-dark {
     color: #43a047; }
-  .cls-text.green-darker {
+  .txt-cls.green-darker {
     color: #388e3c; }
-  .cls-text.yellow {
+  .txt-cls.yellow {
     color: #f4b400; }
-  .cls-text.yellow-light {
+  .txt-cls.yellow-light {
     color: #f7cb4d; }
-  .cls-text.yellow-dark {
+  .txt-cls.yellow-dark {
     color: #f09300; }
-  .cls-text.yellow-darker {
+  .txt-cls.yellow-darker {
     color: #fb8c00; }
-  .cls-text.orange {
+  .txt-cls.orange {
     color: #ff9800; }
-  .cls-text.orange-light {
+  .txt-cls.orange-light {
     color: #ffa726; }
-  .cls-text.orange-dark {
+  .txt-cls.orange-dark {
     color: #fb8c00; }
-  .cls-text.orange-darker {
+  .txt-cls.orange-darker {
     color: #fb8c00; }
-  .cls-text.mz-orange {
-    color: #ff5722; }
-  .cls-text.mz-orange-light {
-    color: #ff7043; }
-  .cls-text.mz-orange-dark {
-    color: #f4511e; }
-  .cls-text.mz-orange-darker {
-    color: #e64a19; }
-  .cls-text.brown {
+  .txt-cls.brown {
     color: #795548; }
-  .cls-text.brown-light {
+  .txt-cls.brown-light {
     color: #8d6e63; }
-  .cls-text.brown-dark {
+  .txt-cls.brown-dark {
     color: #6d4c41; }
-  .cls-text.brown-darker {
+  .txt-cls.brown-darker {
     color: #5d4037; }
-  .cls-text.grey {
+  .txt-cls.grey {
     color: #9e9e9e; }
-  .cls-text.grey-light {
+  .txt-cls.grey-light {
     color: #bdbdbd; }
-  .cls-text.grey-dark {
+  .txt-cls.grey-dark {
     color: #757575; }
-  .cls-text.grey-darker {
+  .txt-cls.grey-darker {
     color: #212121; }

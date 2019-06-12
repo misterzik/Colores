@@ -1,13 +1,12 @@
-![alt text](logo.png "Color.es")
+![alt text](colores-logo.png "Color.es by MisterZik")
 ## Color.es
 ---
-#### Gorgeous Color Palettes :bowtie:
-##### Colores
-Color.es is a small css library packed with the most used colors used this season. The idea behind this is to explore new palettes, while keeping track of what was once claimed and admire by many!
+#### Gorgeous Color Palettes for Web Enthusiast :bowtie:
+##### Colores also known as Color.es
 
-We will start with material design palette references, and move forward as the research moves along, asides from that we will implement custom libraries that reference famous painters, singers, and even world events.
+Color.es is a tiny bit CSS library fueled with the most exciting colors. No, We do not get to pick them, or randomly say, hey! let's release this color wave. We are Front-end developer with 10+ years, We based our Open-Source libraries out of studies and research made by our team here at www.vimedev.com
 
-![alt text](Showcase.png "Background colors & Font Colors based on Popular Palettes for 2017. (CSS Only)")
+![alt text](Showcase-legacy.png "Background colors & Font Colors based on Popular Palettes for 2017. (CSS Only)")
 
 ### Installation
 * Download [ZIP](https://github.com/misterzik/Colores/archive/master.zip) or Clone Project
@@ -22,17 +21,33 @@ Color.es comes with a built-in demo, Please refer to folder `/public`. If you wo
 2. Include this new files on your `index.html`.
 ```
 <link rel="stylesheet" href="color.es.min.css">
-<link rel="stylesheet" href="color.es-artsy.min.css">
+<link rel="stylesheet" href="themes/cls-artsy.min.css">
 ```
-3. Use the Class name `colores` to get the ball rolling, follow up with the color from the default palette.
+3. Use the Class name `colores` to get the classes style properly place on your DOM, follow up with the color from the default palette.
 
 Example )
 For this example, I am going to use the color yellow in default/primary color.
 
  `colores yellow` - This will change the color of the container or background.
 
- `cls-text yellow` - This will change the color of the text font.
 
+ How About RED?
+ 
+ Pretty Simple, same idea behind, start by specifying the class name `colores` follow by the color `red`
+ 
+ ``` 
+ <div class="colores red"> IS MY BG RED? </div>
+```
+
+
+#### W00t! w00t!, Sweet, but how about if i want to change the text color,
+It's okay, we got ya all cover, now since we only want the text color to change instead of the background color
+we are going to replace the class name `colores` for `txt-cls` follow by the color
+
+ ```
+ txt-cls yellow
+ ``` 
+ 
 #### HTML:
 ```
 <div class="colores yellow">
@@ -41,7 +56,7 @@ For this example, I am going to use the color yellow in default/primary color.
 ```
 
 ```
-<span class="cls-text yellow">
+<span class="txt-cls yellow">
   This is a Yellow Text
 </span>
 ```
@@ -50,12 +65,23 @@ For this example, I am going to use the color yellow in default/primary color.
 ```
 <div class="colores yellow">
   This is a Yellow Box
-  This is a <span class="cls-text yellow-dark">Dark Yellow</span> Text
+  This is a <span class="txt-cls yellow-dark">Dark Yellow</span> Text
 </div>
 ```
 ###### Colores Variations:
-`cls-text` or `colores yellow` `yellow-dark` - This will change the base color to a different tone. [light, dark, darker]
+Use the proper class to change the style desired `txt-cls` or
+`colores yellow`
 
+Asides from that we have also included three tones asides from library primary tone in order to use it
+you just have to specify the tone, if left blank the tone will go instantly to primary, you have three options light, dark, and darker
+depending on the option you will get the right property, per example.
+
+ ```
+ colores yellow = Default Tone
+ colores yellow-light = Lighter tone from Default 
+ colores yellow-dark = Dark tone from Default
+ colores yellow-darker =  Darker tone from Dark Tone
+ ```
 
 
 ### Default Color Palette

@@ -1,29 +1,30 @@
 {
-  "name": "colores",
-  "description": "Gorgeous Color Schemes, Color.es is a small css library packed with the most used colors used this season.",
-  "main": "src/color.es.min.css",
-  "authors": [
-    "MisterZik <nickjrod@gmail.com>"
-  ],
-  "license": "MIT",
-  "keywords": [
-    "color",
-    "color palette",
-    "colors",
-    "colores",
-    "css colors",
-    "color css"
-  ],
-  "homepage": "https://github.com/misterzik/colores",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "repository": {
-  "type": "git",
-  "url": "git://github.com/misterzik/Colores.git"
-}
+    "name": "colores",
+    "description": "Color.es is a tiny bit CSS library fueled with the most exciting colors.",
+    "main": "dist/color.es.min.css",
+    "authors": [
+        "Nick 'MisterZik' Rodriguez"
+    ],
+    "license": "MIT",
+    "keywords": [
+        "color",
+        "color palette",
+        "colors",
+        "colores",
+        "css colors",
+        "color css",
+        "material design"
+    ],
+    "homepage": "https://github.com/misterzik/colores",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/misterzik/Colores.git"
+    }
 }
