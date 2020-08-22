@@ -1,37 +1,37 @@
-/*
+/**
+ * ----------
  * Color.es :: Built-in Palette
  * >__ by misterZik
- * ----------------------------
- * colores Default Colors.
- */
-/*
- * Color.es :: Built-in Palette
- * >__ by misterZik
- * ----------------------------
- * Functionality
- */
-/*
- * Color.es :: Built-in Palette
- * >__ by misterZik
- * ----------------------------
- * Colores - Config
+ * ----------
+ * Powered by Vimedev.com Labs
  * ----------------
+ * 
  */
-/*
-   * Colores - Palette
-   */
-/*
+/**
+ * ----------
  * Color.es :: Built-in Palette
  * >__ by misterZik
- * ----------------------------
+ * ----------
+ * Powered by Vimedev.com Labs
+ * ----------------
+ * 
+ */
+/**
+ * ----------
+ * Color.es :: Built-in Palette
+ * >__ by misterZik
+ * ----------
+ * Powered by Vimedev.com Labs
+ * ----------------
+ * 
+ */
+/*
  * Colores - Palette
- * ----------------
  */
 /*
- * Color.es :: Built-in Palette
- * >__ by misterZik
- * ----------------------------
- * colores Built-in Palette
+ * Level's of opacity
+ * ----
+ * Standard Setup *Required 
  */
 .colores {
   /* Primary */
@@ -134,8 +134,8 @@
   .colores.grey-darker {
     background: #212121; }
 
+/* Font Color - Colores */
 .txt-cls {
-  /* Font Color - Colores */
   /* Primary */
   /* Red  */
   /* Pink */

@@ -1,10 +1,9 @@
 ![alt text](colores-logo.png "Color.es by MisterZik")
 ## Color.es
 ---
-#### Gorgeous Color Palettes for Web Enthusiast :bowtie:
-##### Colores also known as Color.es
+#### Colores also known as Color.es
 
-Color.es is a tiny bit CSS library fueled with the most exciting colors. No, We do not get to pick them, or randomly say, hey! let's release this color wave. We are Front-end developer with 10+ years, We based our Open-Source libraries out of studies and research made by our team here at www.vimedev.com
+Color.es is a tiny bit CSS library fueled with SCSS on the back.
 
 ![alt text](Showcase-legacy.png "Background colors & Font Colors based on Popular Palettes for 2017. (CSS Only)")
 
@@ -21,7 +20,6 @@ Color.es comes with a built-in demo, Please refer to folder `/public`. If you wo
 2. Include this new files on your `index.html`.
 ```
 <link rel="stylesheet" href="color.es.min.css">
-<link rel="stylesheet" href="themes/cls-artsy.min.css">
 ```
 3. Use the Class name `colores` to get the classes style properly place on your DOM, follow up with the color from the default palette.
 
@@ -100,15 +98,3 @@ depending on the option you will get the right property, per example.
 | colores     | brown       | light,dark,darker |
 | colores     | green       | light,dark,darker |
 
-
-### Artsy Legends - Color Palette
-
-| Class Name  |  Color Name   | Extra Option      |
-| ------------|:-------------:| -----------------:|
-| colores     | night        | light,dark,darker |
-| colores     | mona        | light,dark,darker |
-| colores     | scream       | light,dark,darker |
-| colores     | heaven       | light,dark,darker |
-| colores     | grande        | light,dark,darker |
-| colores     | metrist        | light,dark,darker |
-| colores     | wave        | light,dark,darker |

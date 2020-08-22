@@ -1,9 +1,9 @@
 {
-    "name": "colores",
-    "description": "Color.es is a tiny bit CSS library fueled with the most exciting colors.",
+    "name": "color.es",
+    "description": "Color.es is a tiny SCSS library converted to CSS.",
     "main": "dist/color.es.min.css",
     "authors": [
-        "Nick 'MisterZik' Rodriguez"
+        "MisterZik"
     ],
     "license": "MIT",
     "keywords": [
